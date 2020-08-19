@@ -1,0 +1,668 @@
+<!doctype html>
+
+<html xmlns:fb="http://ogp.me/ns/fb#">
+
+<head>
+    <meta charset="utf-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> -->
+    <title>How Do We Weigh Planets? | NASA Space Place – NASA Science for Kids</title>
+    <meta name="description" content="We can use a planet’s gravitational pull like a scale!">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="p:domain_verify" content="6118cfa3a4def878b65ea2c155a245fc" />
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/css/css/all-styles.css?v=21">
+    <link rel="stylesheet" href="/css/css/solar-system.css?v=3">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="/js/libs/modernizr-2.6.2.min-ck.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <script src="/js/libs/jquery-ui-1.8.13.custom.min.js"></script>
+    <script src="/js/libs/jquery.beforeafter-1.4.min.js"></script>
+    <script src="/js/features.js?v=1"></script>
+    <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0070/1109.js" async="async"></script>
+
+    <!--<script type="text/javascript" src="/js/uncompressed/federated-analytics.js"></script>-->
+
+    <script>
+        !window.jQuery && document.write('<script src="/js/jquery-1.4.2.min-ck.js"><\/script>')
+    </script>
+
+</head>
+
+<body class="solar-system en">
+
+    <!--[if lt IE 8]>
+    <link rel = "stylesheet" href = "/css/css/ie7.css"/>
+<![endif\-->
+
+    <!--[if lt IE 7]>
+    <div class = "outdated-browser-warning">
+        <p>
+            You are using an outdated browser.  For a faster, safer, and more beautiful web upgrade for free today.
+            <a href = "http://www.apple.com/safari/" target="_blank"><img src = "/resources/icons/safari-logo.png" alt = "safari logo"></a>
+            <a href = "http://www.mozilla.com/en-US/firefox/" target="_blank"><img src = "/resources/icons/firefox-logo.png" alt = "firefox logo"></a>
+            <a href = "http://chrome.google.com" target="_blank"><img src = "/resources/icons/chrome-logo.png" alt = "google chrome logo"></a>
+        </p>
+    </div>
+<![endif]-->
+
+    <div id="container" class="container">
+
+
+        <div style="display:none;" id="page-uri-holder">planets-weight</div>
+        <div class="tooltip">
+            <span class="content"></span>
+            <div class="tooltip-tip"></div>
+        </div>
+        <header id="nasa-header">
+            <a href="https://www.nasa.gov" target="_blank">
+                <img id="nasa-logo" src="/resources/homepage/nasa.png">
+            </a>
+            <!--<a href = "https://science.nasa.gov" target = "_blank">
+        <img id = "nasa-science-logo" src = "/resources/homepage/nasa-science-logo.png">
+    </a>-->
+            <div id="site-logo-holder">
+                <a href="https://science.nasa.gov" target="_blank">
+                    <img id="nasa-science-logo" src="/resources/homepage/nasa-science-logo-horizontal.png">
+                </a>
+                <a href="/">
+                    <div id="spaceplace-text" class=""></div>
+                </a>
+            </div>
+            <div id="search-bar">
+
+                <div id="language-switcher">
+                    <span><a href="/sp/planets-weight/">Vea en Espa&ntilde;ol</a></span>
+                </div>
+
+
+                <form id="search-form" action="/search/" method="get">
+                    <input type="search" id="search-input" class="search-input" name="q">
+                    <img src="/resources/homepage/search-button.png" alt="search button">
+                </form>
+            </div>
+            <div class="clearfix"></div>
+        </header>
+        <header>
+
+
+            <div class="clearfix"></div>
+            <nav class="category-nav">
+
+                <a href="/menu/earth" class="navItem">
+                    <div class="navIcon navEarth"></div>
+                    <div class="navText">Earth</div>
+                </a>
+                <a href="/menu/sun" class="navItem">
+                    <div class="navIcon navSun"></div>
+                    <div class="navText">Sun</div>
+                </a>
+                <a href="/menu/solar-system" class="navItem">
+                    <div class="navIcon navSolarSystem"></div>
+                    <div class="navText">Solar System</div>
+                </a>
+                <a href="/menu/space" class="navItem">
+                    <div class="navIcon navSpace"></div>
+                    <div class="navText">Universe</div>
+                </a>
+                <a href="/menu/science-and-technology" class="navItem">
+                    <div class="navIcon navScience"></div>
+                    <div class="navText">Science and Tech</div>
+                </a>
+                <a href="/menu/parents-and-educators" class="navItem">
+                    <div class="navIcon navEducators"></div>
+                    <div class="navText">Educators</div>
+                </a>
+
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+
+        <div id='mission-tags'></div>
+
+        <style type="text/css">
+            #share-links {
+                position: absolute;
+                right: 30px;
+                bottom: 5px;
+            }
+
+            #share-links.long-title {
+                bottom: -28px;
+            }
+
+            #share-links div {
+                width: 20px;
+                height: 20px;
+                float: left;
+                margin-left: 4px;
+                position: relative;
+            }
+
+            #share-links div.label {
+                width: 30px;
+                color: black;
+                font-size: 12px;
+                height: 20px;
+                line-height: 20px;
+                font-weight: bold;
+            }
+
+            #google-share {
+                width: 32px !important;
+            }
+
+            #facebook-share {
+                width: 55px !important;
+                margin-top: -5px;
+            }
+
+            #twitter-share {
+                background: url(/resources/icons/twitter.en.png);
+                text-indent: -10000px;
+                overflow: hidden;
+            }
+
+            #twitter-share a,
+            #facebook-share a {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+            }
+
+            #email-share {
+                background: url(/resources/icons/email.en.png);
+            }
+        </style>
+
+        <div id="content-wrapper">
+
+            <div id="main">
+                <div class="title">
+                    <h1 style="font-size:16pt !important; margin-top:-5px; color:black !important;">How Do We Weigh
+                        Planets?</h1>
+                </div>
+                <div class="content">
+                    <span class="standardFontSize">
+
+                        <div class="wh-featured-snippet" style="position:relative">
+                            <div
+                                style="border:5px solid #01118e;padding:25px;max-width:100%;margin:15px 0; border-radius:30px;">
+                                <div
+                                    style="position: absolute;top:-15px;margin-left: 25px;background: #fff;padding: 5px;">
+                                    <strong>The Short Answer:</strong></div>
+                                <div>
+                                    To weigh a planet, scientists need to know two things: how long it takes objects to
+                                    orbit the planet and how far away those objects are from the planet. The time it
+                                    takes an object to orbit a planet depends on its distance from the planet and the
+                                    planet’s weight.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="image-with-caption">
+                            <img src="/review/planets-weight/planets-weight1.en.png"
+                                alt="illustration of a planet on a scale" style="border-radius:30px;">
+                        </div>
+
+                        <p>In real life, we can’t pick up a planet and put it on a scale. However, scientists do have
+                            ways to figure out how much a planet weighs. They can calculate how hard the planet pulls on
+                            other things. The heavier the planet, the stronger it tugs on nearby objects—like moons or
+                            visiting spacecraft. That tug is what we call <strong>gravitational pull</strong>.</p>
+                        <br>
+
+                        <h2 class="Quicksand">What does gravity have to do with weight?</h2>
+
+                        <div class="image-with-caption left" style="width:220px;">
+                            <img src="/review/planets-weight/planets-weight2.en.png" alt=""
+                                style="width:200px; border-radius:30px;">
+                            <p class="caption">Earth's gravitational pull is what keeps the Moon in orbit around our
+                                planet. Voyager 1 snapped this picture of Earth and the Moon from a distance of 7.25
+                                million miles. Credit: NASA/JPL-Caltech</p>
+                        </div>
+
+                        <p>When you stand on a scale, what it’s actually doing is measuring how hard Earth’s <a
+                                href="/what-is-gravity">gravity</a> is pulling on you.</p>
+
+                        <p>If you were to step onto a scale on another planet, it would say something different than it
+                            does here. That’s because the planets weigh different amounts, and therefore the force of
+                            gravity is different from planet to planet.</p>
+
+                        <p>For example, if you weigh 100 pounds on Earth, you would weigh only 38 pounds on Mercury.
+                            That’s because Mercury weighs less than Earth, and therefore its gravity would pull less on
+                            your body. If, on the other hand, you were on heavy Jupiter, you would weigh a whopping 253
+                            pounds!</p><br>
+
+                        <h2 class="Quicksand">How do scientists use gravitational pull as a scale?</h2>
+
+                        <p>In order to figure out how heavy a planet is, scientists need to know two things: how long it
+                            takes nearby objects to orbit the planet and how far away those objects are from the planet.
+                            For example, the closer a moon is to its planet, the stronger the planet will tug on it. The
+                            time it takes an object (whether it's a moon or spacecraft) to orbit a planet depends both
+                            on its distance from the planet and how heavy the planet is.</p> <br>
+
+                        <h2 class="Quicksand">Why do scientists usually talk about mass rather than weight?</h2>
+
+                        <p>An object's weight is dependent on its mass and how strongly gravity pulls on it. The
+                            strength of gravity depends on how far away one object is from another. That’s why the same
+                            object weighs different amounts on different planets. It’s sometimes easier to compare
+                            planets using a measurement that isn’t quite so complicated. That’s why scientists and
+                            engineers often measure an object’s <strong>mass</strong>—how much matter the object
+                            contains—rather than its weight.</p>
+
+                        <p>Mass stays the same regardless of location and gravity. You would have the same mass on Mars
+                            or Jupiter as you do here on Earth.</p>
+
+                        <div class="image-with-caption">
+                            <img src="/review/planets-weight/planets-weight3.en.png"
+                                alt="illustration of Earth and Mars with a stick figure person atop each one, showing that while a person's weight would differ on both planets, their mass would be the same"
+                                style="border-radius:30px;">
+                            <p class="caption">Your weight is different on other planets due to gravity. However, your
+                                mass is the same everywhere!</p>
+                        </div>
+
+                        <h2 class="Quicksand">What is the mass of Earth?</h2>
+
+                        <p>We know that Earth has a mass of approximately 5,970,000,000,000,000,000,000,000 kilograms.
+                            That’s a really big number!</p><br>
+
+
+                        <div class="infoBox" style="border:1px solid #25bfd2;">
+
+                            <center>
+                                <h2 class="Quicksand">How do you write a shorter version of a very big number?
+                                    Exponents!</h2>
+                            </center>
+
+                            <p>The Earth’s mass is <strong>5,970,000,000,000,000,000,000,000</strong> kilograms. That is
+                                a lot of mass! Here is a shorter way of writing that big number: 5.97 x 10<sup>24</sup>
+                                kg. That little 24 is called an <strong>exponent</strong>. An exponent of a number is
+                                how many times to use that number as a multiplier. So, in other words:<br><br>
+                                <strong>5,970,000,000,000,000,000,000,000</strong> is the same as…<br><br>
+                                <strong>5.97 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10
+                                    x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10 x 10</strong><br><br>
+                                which can be shortened to…<br><br>
+                                <strong>5.97 x 10<sup>24</sup></strong>
+                            </p>
+                        </div>
+
+
+                        <h2 class="Quicksand">What is the mass of the other planets in our solar system?</h2>
+
+                        <p>The table below lists all the planets in our solar system in order from least massive to most
+                            massive. You can also find the mass of each planet in kilograms, and how the mass of each
+                            planet compares to that of Earth.</p>
+
+                        <br>
+
+                        <style>
+                            table {
+                                border-collapse: separate;
+                                border: 1px solid black;
+                                border-radius: 10px;
+                            }
+
+                            th,
+                            td {
+                                border-left: solid black 1px;
+                                border-top: solid black 1px;
+                                width: 33%;
+                                padding: 10px;
+                            }
+
+                            th {
+                                font-weight: bold;
+                                border-top: none;
+                            }
+
+                            td:first-child,
+                            th:first-child {
+                                border-left: none;
+                            }
+                        </style>
+
+                        <table>
+                            <tr>
+                                <th>Planets (in order of least massive to most massive)</th>
+                                <th>Mass<br>(in kilograms)</th>
+                                <th>Each planet’s mass relative to Earth</th>
+                            </tr>
+                            <tr>
+                                <td>Mercury</td>
+                                <td>3.30 x 10<sup>23</sup></td>
+                                <td>0.0553</td>
+                            </tr>
+                            <tr>
+                                <td>Mars</td>
+                                <td>6.42 x 10<sup>23</sup></td>
+                                <td>0.107</td>
+                            </tr>
+                            <tr>
+                                <td>Venus</td>
+                                <td>4.87 x 10<sup>24</sup></td>
+                                <td>0.815</td>
+                            </tr>
+                            <tr>
+                                <td>Earth</td>
+                                <td>5.97 x 10<sup>24</sup> </td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Uranus</td>
+                                <td>8.68 x 10<sup>25</sup></td>
+                                <td>14.5</td>
+                            </tr>
+                            <tr>
+                                <td>Neptune</td>
+                                <td>1.02 x 10<sup>26</sup></td>
+                                <td>17.1</td>
+                            </tr>
+                            <tr>
+                                <td>Saturn</td>
+                                <td>5.68 x 10<sup>26</sup></td>
+                                <td>95.2</td>
+                            </tr>
+                            <tr>
+                                <td>Jupiter</td>
+                                <td>1.90 x 10<sup>27</sup></td>
+                                <td>318</td>
+                            </tr>
+                        </table>
+
+                    </span>
+                </div>
+                <div class="footerArticleUpdated">
+                    article last updated June 1, 2020
+                </div>
+            </div>
+
+
+
+            <style type="text/css">
+                #similar {
+                    float: left;
+                    clear: both;
+                    margin-top: 10px;
+                    background: white;
+                    border-radius: 10px;
+                    -moz-border-radius: 10px;
+                    -webkit-border-radius: 10px;
+                    width: 560px;
+                }
+
+                #similar .content {
+                    padding: 20px;
+                }
+
+                #similar .similar-item {
+                    display: inline-block;
+                    width: 30%;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+
+                .similar-item img {
+                    display: block;
+                    margin: 5px auto;
+                    max-width: 88px;
+                }
+
+                .similar-item a.similar-title {
+                    display: block;
+                    height: 30px;
+                }
+
+                .sp #similar {
+                    display: none;
+                }
+            </style>
+
+
+            <div id="sidebar">
+
+
+
+                <div class="content">
+                    <span class="standardFontSize">
+
+                        <center>
+
+                            <h3 class="Quicksand">Explore More!</h3>
+
+                            <a href="/planets" class="sidebarLink">
+                                <img class="sidebarFullWidthImage" src="solar-system.en.png"
+                                    alt="an illustration of the planets in our solar system in a family portrait">
+                                <p>All About The Planets</p>
+                            </a>
+
+                            <a href="/what-is-gravity" class="sidebarLink">
+                                <img class="sidebarFullWidthImage" src="what-is-gravity.en.png"
+                                    alt="an illustration of gravity as a bend in space">
+                                <p>What Is Gravity?</p>
+                            </a>
+
+                            <a href="/planets-round" class="sidebarLink">
+                                <img class="sidebarFullWidthImage" src="planets-round.en.jpg"
+                                    alt="an image of the whole Earth">
+                                <p>Why Are Planets Round?</p>
+                            </a>
+
+                        </center>
+
+                    </span>
+                </div>
+
+            </div>
+            <div id="similar">
+                <div class='content'>
+                    <h3 class="Quicksand">If you liked this, you may like:</h3>
+                    <div class='similar-item'>
+                        <a href='/barycenter'><img src="/resources/icons/barycenter.en.png"
+                                alt="Similar Item 1 : What Is a Barycenter?"></a>
+                        <a class='similar-title' href='/barycenter'>What Is a Barycenter?</a>
+                    </div>
+                    <div class='similar-item'>
+                        <a href='/meteor-shower'><img src="/resources/icons/meteor-shower.en.jpg"
+                                alt="Similar Item 1 : What Is a Meteor Shower?"></a>
+                        <a class='similar-title' href='/meteor-shower'>What Is a Meteor Shower?</a>
+                    </div>
+                    <div class='similar-item'>
+                        <a href='/planets-round'><img src="/resources/icons/planets-round.en.png"
+                                alt="Similar Item 1 : Why Are Planets Round?"></a>
+                        <a class='similar-title' href='/planets-round'>Why Are Planets Round?</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <footer>
+
+            <div id="skinny-footer">
+
+                <span class="footer-links">
+                    <a href="/about-us">About Us</a>
+                    <a href="https://www.nasa.gov/about/highlights/HP_Privacy.html" target="_blank">Privacy Policy</a>
+                    <a href="/image-use">Image Use</a>
+                </span>
+
+
+
+                <span class="webmaster">NASA Official: Kristen Erickson</span>
+                <span class="webmaster">Program Manager: Heather Doyle</span>
+                <span class="contact"><a id='mail-link' href="spaceplace.nasa.gov">Contact NASA Space Place</a></span>
+                <span class="last-updated">
+                    Last Updated: August 12th, 2020 </span>
+                <script>
+                    var prefix = "mail";
+                    prefix = prefix + "to:";
+                    prefix = prefix + "info";
+                    prefix = prefix + "@";
+                    $("#mail-link").attr('href', prefix + $('#mail-link').attr('href'));
+                </script>
+            </div>
+        </footer>
+
+    </div> <!-- end of #container -->
+
+
+
+
+
+    <div class="left-tray" id="left-tray">
+        <div class='tab'>
+            <a href="#left-tray" class="more">More</a>
+            <a href="#" class="less">Less</a>
+        </div>
+        <div class="tray-bg"></div>
+        <div class='content'>
+            <nav>
+                <h3>By Subject</h3>
+                <ul>
+                    <li><a href="/menu/space">Space</a></li>
+                    <li><a href="/menu/sun">Sun</a></li>
+                    <li><a href="/menu/earth">Earth</a></li>
+                    <li><a href="/menu/solar-system">Solar System</a></li>
+                    <li><a href="/menu/people-and-technology">People & Technology</a></li>
+                    <li><a href="/menu/parents-and-educators">Parents & Educators</a></li>
+                </ul>
+                <h3>By Type</h3>
+                <ul>
+                    <li><a href="/menu/explore">Explore</a></li>
+                    <li><a href="/menu/do">Do</a></li>
+                    <li><a href="/menu/play">Play</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <div class="right-tray" id="right-tray">
+        <div class='tab'>
+            <a href="#right-tray" class="more">More</a>
+            <a href="#" class="less">Less</a>
+        </div>
+        <div class="tray-bg"></div>
+        <div class="content sidebar">
+            <span class="standardFontSize">
+
+                <center>
+
+                    <h3 class="Quicksand">Explore More!</h3>
+
+                    <a href="/planets" class="sidebarLink">
+                        <img class="sidebarFullWidthImage" src="solar-system.png"
+                            alt="an illustration of the planets in our solar system in a family portrait">
+                        <p>All About The Planets</p>
+                    </a>
+
+                    <a href="/what-is-gravity" class="sidebarLink">
+                        <img class="sidebarFullWidthImage" src="what-is-gravity.png"
+                            alt="an illustration of gravity as a bend in space">
+                        <p>What Is Gravity?</p>
+                    </a>
+
+                    <a href="/planets-round" class="sidebarLink">
+                        <img class="sidebarFullWidthImage" src="planets-round.jpg" alt="an image of the whole Earth">
+                        <p>Why Are Planets Round?</p>
+                    </a>
+
+                </center>
+
+            </span> </div>
+    </div>
+
+
+
+    <!--[if lt IE 7 ]>
+    <script src="js/dd_belatedpng.js?v=1"></script>
+  <![endif]-->
+
+    <!-- <script src="/js/profiling/yahoo-profiling.min.js?v=1"></script>
+  <script src="/js/profiling/config.js?v=1"></script> -->
+    <script src="/js/script-ck.js?v=2"></script>
+
+
+
+    <!--<script id="_fed_an_js_tag" type="text/javascript" src="/js/uncompressed/federatedanalytics.all.min.js?agency=NASA&subagency=JPL-Spaceplace"></script>-->
+    <!-- <script src = "/js/uncompressed/omniture.js"></script>   -->
+    <!--
+<script language="JavaScript" type="text/javascript"><!--
+s.pageName="How Do We Weigh Planets?"
+s.channel="solar-system"
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)//-->
+    <!-- </script> -->
+
+    <script id="_fed_an_ua_tag" type="text/javascript"
+        src="//dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=NASA&pua=UA-15623173-3&subagency=JPL-Spaceplace&dclink=true&sp=search,s">
+    </script>
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-15623173-3', 'auto');
+        ga('require', 'linkid');
+        //ga('send', 'pageview');
+    </script>
+
+    <script>
+        var hasScrolled25 = false;
+        var hasScrolled50 = false;
+        var hasScrolled75 = false;
+        var hasScrolled90 = false;
+
+        document.addEventListener('scroll', function () {
+
+            var h = document.documentElement,
+                b = document.body,
+                st = 'scrollTop',
+                sh = 'scrollHeight';
+
+            var percent = parseInt((h[st] || b[st]) / ((h[sh] || b[sh]) - h.clientHeight) * 100);
+
+            if (percent >= 25 && !hasScrolled25) {
+                ga('send', 'event', 'Scrolling', 'moreThan25%', window.location.href, {
+                    'nonInteraction': 1
+                });
+                hasScrolled25 = true;
+            } else if (percent >= 50 && !hasScrolled50) {
+                ga('send', 'event', 'Scrolling', 'moreThan50%', window.location.href, {
+                    'nonInteraction': 1
+                });
+                hasScrolled50 = true;
+            } else if (percent >= 75 && !hasScrolled75) {
+                ga('send', 'event', 'Scrolling', 'moreThan75%', window.location.href, {
+                    'nonInteraction': 1
+                });
+                hasScrolled75 = true;
+            } else if (percent >= 90 && !hasScrolled90) {
+                ga('send', 'event', 'Scrolling', 'moreThan90%', window.location.href, {
+                    'nonInteraction': 1
+                });
+                hasScrolled90 = true;
+            }
+
+        });
+    </script>
+
+
+</body>
+
+</html>
