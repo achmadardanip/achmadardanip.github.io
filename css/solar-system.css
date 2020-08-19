@@ -1,0 +1,84 @@
+#left-tray .tab,
+#right-tray .tab {
+  background: #798CDD; }
+
+/*  solar-system Colors:  
+
+            Article Title Color: #C0694D;
+            Secondary Box Color: #798CDD;
+            
+            Menu Item (Saturaetd): #922710;
+            Menu Item (Unsaturated): #B14D3B;
+            Menu Item (Border): #DD9E8B;  */
+body {
+  background: #01041b url(/resources/index/space_background.png) no-repeat scroll top center; }
+
+.mini {
+  background: transparent url(/resources/layout/view-print-play/solar-button-backgrounds.png) no-repeat scroll top left; }
+
+#main .title,
+#menu,
+.main .title {
+  background: none; }
+  
+.title h1{
+	font-size:25pt !important;
+	margin-top:-15px;
+	font-family:"Quicksand", sans-serif;
+	color:white;
+}
+
+#sidebar .content,
+.relevant-fact,
+#sidebar .features,
+#sidebar .whats-new,
+.information,
+.sidebar .content {
+  background-color: #c56682; }
+
+.category-nav a.solar-system {
+	color:#da5a4b;
+  /*background: transparent url(/resources/layout/category-buttons/solar-systemSelected.png) no-repeat scroll top center;*/ }
+
+.sp .category-nav a.solar-system {
+	color:#da5a4b;
+  /*background: transparent url(/resources/layout/category-buttons/solar-systemSelected.sp.png) no-repeat scroll top center;*/ }
+
+.extended-tab.solar-system {
+  background: black url(/resources/layout/category-buttons/solar-system-icon.png) no-repeat scroll top center;
+  visibility: visible; }
+
+#filter-menu div.selected {
+  color: #B14D3B; }
+
+#menu ul li {
+  background: #3f2b74;
+  border: 2px solid #c56682; }
+  
+.featuredBGColor{
+	background: #3f2b74 !important;
+	color:white !important;
+}
+
+.featuredTextColor{
+	
+	color:white !important;
+}
+
+#menu ul li.out {
+  background: #7761af; }
+
+#menu .link-icon.out {
+  background: transparent url(/resources/layout/link-out-icon-solar-system.png) no-repeat scroll top left; }
+
+nav.standard a {
+  background: transparent url(/resources/layout/view-print-play/solar-background.png) no-repeat scroll top center;
+  position: relative; }
+  
+.bigButtonSelected{
+	border-color: #da5a4b;
+}
+
+.featBigButton:hover{
+	border-color: #da5a4b;
+}
