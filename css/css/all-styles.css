@@ -2051,7 +2051,7 @@ p.caption {
   height: 85px;
   float: left;
   visibility: hidden;
-  border-radius: 10px;
+  border-raidus: 10px;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px; }
 
